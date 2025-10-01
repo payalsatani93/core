@@ -22,7 +22,7 @@ export default function TodoList() {
       <input
         type="text"
         value={task}
-        onChange={(e) => setTask(e.target.value)}
+        onChange={(e) => setTask(e.target.value)}   
         placeholder="Enter task..."
       />
       <button onClick={addTask} style={{ marginLeft: "10px" }}>
